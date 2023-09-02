@@ -75,3 +75,14 @@ ALTER TABLE "products" ADD FOREIGN KEY ("brand_id") REFERENCES "brands" ("id") O
 
 ALTER TABLE "catalogue" ADD FOREIGN KEY ("customer_id") REFERENCES "customers" ("id") ON DELETE CASCADE
 
+-- Brands
+
+
+
+-- categories
+
+
+-- Products
+
+
+-- stock
